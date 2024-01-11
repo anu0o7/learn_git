@@ -1,0 +1,4 @@
+hello, 
+touch file.txt  will create a txt document in macos 
+nano file.txt will open the txt file for reading and writing
+cat file.txt will dispaly the file content in terminal

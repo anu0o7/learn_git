@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Car YouTube Channels</title>
+    <style>
+        #channelList {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="showChannels()">Show Top 10 Car Channels</button>
+
+    <div id="channelList">
+        <ul>
+            <li><a href="link_to_channel_1">Car Channel 1</a></li>
+            <li><a href="link_to_channel_2">Car Channel 2</a></li>
+            <li><a href="link_to_channel_3">Car Channel 3</a></li>
+            <!-- Add more channels as needed -->
+        </ul>
+    </div>
+
+    <script>
+        function showChannels() {
+            var channelList = document.getElementById('channelList');
+            if (channelList.style.display === 'none') {
+                channelList.style.display = 'block';
+            } else {
+                channelList.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
+
